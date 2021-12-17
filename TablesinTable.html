@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <style>
+             body{
+                display: flex;
+                align-items:center;
+            } 
+            table,.outer-table td{
+                border:black 2px solid;
+            }
+            .half-hidden{
+                margin:auto;
+                min-width:80%;
+                
+            }
+            .outer-table,.outer{
+                width:100%;
+                height:100%;
+            }
+            .outer-table td{
+                width:50%;
+            }
+            .row1data1,.row1data2{
+                padding:3em;
+            }
+            .row1data1,.row1data2{
+                width:100%;
+                padding-right:2px;
+                padding-left:2px;
+                padding-top: auto;
+                padding-bottom: auto;
+            }
+            .row2data1,.row2data2{
+                padding:1em;
+                width:100%;
+                padding-right:2px;
+                padding-left:2px;
+                padding-top: auto;
+
+            }
+            .top-left,.top-right,.bottom-left,.bottom-right{
+                min-width:100%;
+            }
+            td{
+                text-align: center;
+                width:100%;
+
+            }
+            .outer-table,.row2,.outer,.half-hidden{
+                padding-bottom: 0%;
+            }
+        </style>
+    </head>
+    <body>
+       <table class="half-hidden" >
+           <tr class="outer">
+               <td class="outer">
+                   <table class="outer-table">
+                        <tr class="row1">
+                            <td class="row1data1"> 
+                                <table class="top-left">
+                                    <tr>
+                                        <td colspan="2">Nested Table 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Column 1</td>
+                                        <td>Column 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>abc</td>
+                                        <td>def</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="row1data2">                                
+                            <table class="top-right">
+                                <tr>
+                                    <td>Nested Table 1</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>list item</li>
+                                            <li>list item</li>
+                                            <li>list item</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        </tr>
+                        <tr class="row2">
+                            <td class="row2data1">
+                                <table class="bottom-left">
+                                    <tr>
+                                        <td colspan="2">Nested Table 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://google.com">Nested table</a></td>
+                                        <td>Demo continued</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="row2data2">                                
+                            <table class="bottom-right">
+                                <tr>
+                                    <td>Nested Table 4</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:800;">HTML</td>
+                                </tr>
+                            </table>
+                        </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> 
+    </body>
+</html>
