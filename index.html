@@ -7,6 +7,9 @@
     body{
         font-size:50;
     }
+    p{
+        text-align: center;
+    }
     .merriweather{
         font-family:'Merriweather',serif;
     }
@@ -16,13 +19,162 @@
     .montserrat{
         font-family:'montserrat',verdana;
     }
-    </style>
+
+    .intro{
+        background-color: rgb(200, 240, 255);
+    }
+
+    .name{
+        font-size:200%;
+    }
+
+    .intro p,.mountain img{
+        margin:auto;
+    }
+    .cloud1{
+        margin-left: 65%;
+        margin-top:3.5%;
+        padding-bottom: 2%;
+    }
+    .cloud2{
+        margin-left: 22%;
+        padding-top:3%;
+        margin-bottom:0;
+    }
+
+    .commonprops{
+        text-align: center;
+       color:rgb(0, 130, 182); 
+       font-size:22;
+       font-weight:600;
+    }
+    .intro p{
+       text-align: center;
+       color:rgb(41, 171, 223); 
+       font-weight: 600;
+   }
+
+   .intro span{
+       text-decoration: underline;
+   }
+   .mountain{
+       padding-top: 0;
+   }
+
+   .mountain img{
+       width:50%;
+       height:auto;
+       margin-left:25%;
+
+   }
+   
+   hr{
+       border:none;
+       border-top:5px dotted rgb(159, 249, 255);
+       width:5%;
+       margin:auto;
+   }
+
+   .secondblock{
+       text-align: center;
+       margin-bottom:8%;
+   }
+   .secondblock img{
+       border:hidden;
+       border-width:2px;
+       border-radius:1000px;
+       margin-top:8%;
+   }
+
+   .hello{
+       margin-top:5%;
+       margin-bottom:4%;
+   }
+
+   .headings{
+       font-weight: 600;
+       font-size:42;
+   }
+   
+   .company{
+      margin-top:0%;
+      margin-bottom:8%;
+   }
+    .commonprops2{
+       font-size:18;
+       color:black;
+   }
+   
+   .myskills{
+       margin-top: 8%;
+   }
+   .thirdblock{
+       text-align: center;
+   }
+   .contactme{
+    background-color: #11cdd4;
+    border-radius: 10px;
+    font-size:25;
+    border:none;
+    color:white;
+    font-weight:500;
+   }
+
+   .footer{
+       background-color:#66BFBF;
+       padding-left: 42%;
+   }
+
+   .git,.linkin{
+       width:5%;
+       Color:#11999e;
+       font-size:25;
+   }
+
+   .git{
+       padding:2%;
+       padding-left: 0;
+       margin-left:0%;
+       margin-right:10%;
+   }
+   </style>
     </head>
     <body>
-        <p class="merriweather">Merriweather</p>
-        <p class="sacrament">Sacramento</p>
-        <p class="montserrat">montserrat</p>
-        <i class="fab fa-github"></i>
-        <i class="fab fa-linkedin"></i>
+        <div class="intro">
+                <img class="cloud1" src="https://duttrohan0302.github.io/my-teaching-portfolio/images/cloud.png">
+                <p class="name sacrament"><strong>I'm Duke.</strong></p>
+                <p class="montserrat">a <span>program</span>mer.</p>
+                <img class="cloud2" src="https://duttrohan0302.github.io/my-teaching-portfolio/images/cloud.png">
+                <div class="mountain"><img src="https://duttrohan0302.github.io/my-teaching-portfolio/images/mountain.png"></div>      
+        </div>
+        <div class="secondblock">
+            <img src=".\portfolioImages\photo_without_date_exp.jpg">
+            <p class="commonprops montserrat headings hello">Hello.</p>
+            <p class="commonprops2 merriweather company">I am a Software Developer at Wipro.i ❤️ to code and chill.</p>
+            <hr>
+            <p class="commonprops montserrat headings myskills">My Skills.</p>
+            <div class="Design&development">
+            <h5 class="commonprops montserrat">Design & Development</h5>
+            <p class="commonprops2 merriweather">I got acquainted with coding in my graduation days, since then i have been learning and honing my software Development skills inorder to make efficient and robust web applications .</p>
+            </div>
+            <div class="byheart">
+            <h5 class="commonprops montserrat">Engineer by Heart</h5>
+            <p class="commonprops2 merriweather">An Athelete , A friend of nature , An animal lover , Proud Cat-owner </p>
+            </div>
+            <div class="machinelearning">
+            <h5 class="commonprops montserrat">Machine Learning and Data Science</h5>
+            <p class="commonprops2 merriweather">I started with machine learning and data science about an year ago, I love the possibilities and advancements those fields provide us. Do checkout my Data Science specific projects on my portfolio.</p>
+            </div>
+        </div>
+            <hr>
+            <br>
+            <div class="thirdblock">
+                <p class="commonprops montserrat headings">Get In Touch</p>
+                <h5 class="commonprops montserrat">If you love Netflix and code as much as I do.</h5>
+                <p class="commonprops2 merriweather">Love Netflix and chill, also love to code? Let's talk about how awesome that is! We can code while we binge watch something!</p>
+                <button class="montserrat contactme">CONTACT ME</button>
+            </div>
+            <br>
+            <div class="footer"><i class="fab fa-github git">Github</i><i class="fab fa-linkedin linkin">LinkedIn</i></div> 
     </body>
 </html>
